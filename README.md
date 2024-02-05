@@ -1,5 +1,6 @@
-# Shiki moonlight
-Тема для сайта [shikimori](https://shikimori.one/), которая, по большей части, схожа со стандартной темой.
+# Shiki-moonlight
+Тема для сайта [shikimori](https://shikimori.one/).
+
 Некоторые идеи были позаимствованы у @grin3671 и @EngiNier
 
 ## Скриншоты
@@ -25,13 +26,27 @@
 7. Вставляем в окошко "Стили сайта" следующий код:
 ```css
 /* Основная тема */
-@import url("https://raw.githubusercontent.com/");
-
+@import url("https://raw.githubusercontent.com/vankad24/shiki-moonlight/master/styles/style.css");
+:root{
+	--background-url: url("ссылка на фоновую картинку");
+}
 /* Надписи к оценкам */
-@import url("https://raw.githubusercontent.com/");
-
+@import url("https://raw.githubusercontent.com/vankad24/shiki-moonlight/master/styles/custom_score_notes.css");
+:root{
+	/* Это надписи по умолчанию. Вы можете именить их на другие */
+	--score-10-text: "Эпик вин!";
+	--score-9-text: "Великолепно";
+	--score-8-text: "Отлично";
+	--score-7-text: "Хорошо";
+	--score-6-text: "Нормально";
+	--score-5-text: "Более менее";
+	--score-4-text: "Плохо";
+	--score-3-text: "Очень плохо";
+	--score-2-text: "Ужасно";
+	--score-1-text: "Хуже некуда";
+}
 ```
-8. Вставляем ссылку на картинки в коде выше
+8. Вставляем ссылку на картинку и редактируем надписи в коде выше
 9. Нажимаем сохранить
 10. Радуемся жизни!
 
@@ -45,10 +60,9 @@
 }
 ```
 
-Если вы хотите лишь изменить надписи к оценкам и используете другую тему, добавьте следующий код:
+Если вы используете другую тему и хотите лишь изменить надписи к оценкам, используйте следующий код:
 ```css
-/* Надписи к оценкам */
-@import url("https://raw.githubusercontent.com/");
+@import url("https://raw.githubusercontent.com/vankad24/shiki-moonlight/master/styles/custom_score_notes.css");
 :root{
 	/* Это надписи по умолчанию. Вы можете именить их на другие */
 	--score-10-text: "Эпик вин!";

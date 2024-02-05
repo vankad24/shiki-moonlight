@@ -684,14 +684,19 @@ header.l-top_menu-v2 {
 .p-profiles .profile-head .c-info .c-additionals {
     margin: 0;
     position: absolute;
-    top: -35px;
+    top: -36px;
     left: 50%;
     transform: translateX(-50%);
+    width: 36%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .p-profiles .profile-head .c-brief {
-    position: absolute;
-    top: -170px;
+    position: relative;
+    margin-top: -170px;
     left: 50%;
     transform: translateX(-50%);
     display:  flex;
@@ -719,7 +724,6 @@ header.l-top_menu-v2 {
 .p-profiles .profile-head .c-info {
     overflow: visible;
     position: relative;
-    margin-top: 230px;
 }
 
 .p-profiles .profile-head .c-brief header h1 {
@@ -777,7 +781,21 @@ header.head .notice:hover,
 .p-profiles .profile-head .c-info .c-additionals:hover{
     color: #000;
 }
+.p-profiles header.head .misc {
+    padding: 0;
+    margin: 0;
+	margin-bottom: 6px;
+}
 
+.p-profiles .profile-head .c-brief header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-profiles .profile-head .c-brief header .misc+.notice {
+    margin-bottom: 30px;
+}
 
 /* Друзья, клубы, история */
 .p-profiles-show .profile-content .cc-2 > .c-right {

@@ -24,8 +24,8 @@
 
     --font-family: "Comfortaa", sans-serif !important;
 
-	--background-url: url("");
-	--image-gif: url("");
+	--background-url: url("https://github.com/vankad24/shiki-moonlight/blob/master/images/moonlight-mai.png?raw=true");
+	--image-gif: url("https://github.com/vankad24/shiki-moonlight/blob/master/images/necrodancer-skwatober-dance.gif?raw=true");
 	--display-gif: none;
 	--img-width: 300px;
 	--img-height: calc(1.104*var(--img-width));

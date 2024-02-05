@@ -731,6 +731,7 @@ header.l-top_menu-v2 {
     text-align: center;
     font-size: 64px;
     font-family: var(--font-family);
+    margin-bottom: 4px;
 }
 .l-top_menu-v2 .icon-profile:before,
 .profile-actions>a::before {
@@ -793,7 +794,7 @@ header.head .notice:hover,
     align-items: center;
 }
 
-.p-profiles .profile-head .c-brief header .misc+.notice {
+.p-profiles .profile-head .c-brief header .notice {
     margin-bottom: 30px;
 }
 

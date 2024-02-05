@@ -825,7 +825,15 @@ header.head .notice:hover,
 	margin: 0;
 	border: none;
 	padding: 0;
-	width: -webkit-fill-available;
+}
+.p-profiles .profile-head .c-history.x3 .entry{
+	width: 33%;
+}
+.p-profiles .profile-head .c-history.x2 .entry{
+	width: 49%;
+}
+.p-profiles .profile-head .c-history.x1 .entry{
+	width: 100%;
 }
 .p-profiles .profile-head .c-history .entry:first-child{
 	margin-top: 0px;
@@ -835,7 +843,7 @@ header.head .notice:hover,
     margin: 0 6px 0 0;
     border-radius: 4px;
     max-height: none;
-    max-width: 46px;
+    max-width: 50px;
 }
 .p-profiles .profile-head .c-history .entry .title,
 .p-profiles .profile-head .c-history .entry .misc{

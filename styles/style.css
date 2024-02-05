@@ -598,6 +598,11 @@ header.l-top_menu-v2 {
     z-index: 1;
     margin-bottom: 44px;
 }
+@media screen and (max-width: 768px) {
+	.p-profiles-show .profile-content .cc-2 > .c-left {
+	    margin-bottom: 14px;
+	}
+}
 .p-profiles-show .lifetime .bar {
 	height: 6px;
 	line-height: 1px;
@@ -687,7 +692,7 @@ header.l-top_menu-v2 {
     top: -36px;
     left: 50%;
     transform: translateX(-50%);
-    width: 36%;
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -709,7 +714,9 @@ header.l-top_menu-v2 {
     max-width: none;
     float: none;
 }
-
+.p-profiles .profile-head .c-mobile-actions{
+	display: none;
+}
 .p-profiles .profile-head .c-brief .avatar img {
     width: 220px;
     height: 220px;
@@ -768,6 +775,7 @@ header.l-top_menu-v2 {
 }
 .p-profiles .profile-head .c-brief .avatar .profile-actions {
     margin-top: 14px;
+    display: block;
 }
 .p-profiles .profile-head .c-brief header .notice span:after,
 .p-profiles .profile-head .c-info .c-additionals div a,

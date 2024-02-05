@@ -1,0 +1,69 @@
+:root{
+	/* Стандартные надписи */
+	--score-10-text: "Эпик вин!";
+	--score-9-text: "Великолепно";
+	--score-8-text: "Отлично";
+	--score-7-text: "Хорошо";
+	--score-6-text: "Нормально";
+	--score-5-text: "Более менее";
+	--score-4-text: "Плохо";
+	--score-3-text: "Очень плохо";
+	--score-2-text: "Ужасно";
+	--score-1-text: "Хуже некуда";
+}
+.b-rate{
+	align-items: flex-start;
+}
+.score-notice{
+	display: none;
+}
+.score-value:after{
+	display: block;
+	color: #000;
+	font-family: var(--font-main);
+	font-size: 13px;
+	line-height: 1;
+	margin-top: -5px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	padding: 0;
+	border: none;
+	white-space: break-spaces;
+	min-width: 70px;
+}
+.b-rate .text-score {
+	color: #000;
+}
+.score-10:after{
+	content: var(--score-10-text);
+}
+.score-9:after{
+	content: var(--score-9-text);
+}
+.score-8:after{
+	content: var(--score-8-text);
+}
+.score-7:after{
+	content: var(--score-7-text);
+}
+.score-6:after{
+	content: var(--score-6-text);
+}
+.score-5:after{
+	content: var(--score-5-text);
+}
+.score-4:after{
+	content: var(--score-4-text);
+}
+.score-3:after{
+	content: var(--score-3-text);
+}
+.score-2:after{
+	content: var(--score-2-text);
+}
+.score-1:after{
+	content: var(--score-1-text);
+}
+.score-0:after{
+	content: "24";
+}

@@ -59,7 +59,12 @@ body{
 	padding-left: 50px;
 	padding-right: 50px;
 }
-
+@media screen and (max-width: 768px) {
+	.l-page {
+		padding-left: 10px!important;
+		padding-right: 10px!important;
+	}
+}
 /* Звёздочки */
 .stars.hover {
 	color: #5db5ff!important;
@@ -184,6 +189,7 @@ body{
 	align-items: center;
 	border-radius: 0 50% 50% 0;
 	padding-right: 4px;
+	z-index: 3;
 }
 .b-feedback .marker-positioner:hover{
 	background:#365084b0;;
@@ -660,7 +666,7 @@ header.l-top_menu-v2 {
 .profile-actions>a::before {
     display: block;
     flex-shrink: 0;
-    width: 1em !important;
+    /* width: 1em !important; */
     font-family: "Material Icons" !important;
     font-size: 24px !important;
     font-style: normal;
@@ -682,8 +688,6 @@ header.l-top_menu-v2 {
 .profile-actions .mail::before{content:'mail'}.profile-actions .talk::before{content:'message'}.profile-actions .fav-add::before{content:'person_add'}.profile-actions .fav-remove::before{content:'person';color:var(--color-accent)}.profile-actions .fav-remove:hover::before{content:'person_outline';color:inherit}.profile-actions .ignore-add::before{content:'do_not_disturb_on'}.profile-actions .ignore-remove::before{content:'do_not_disturb_off'}.profile-actions .settings::before{content:'settings'}.profile-actions .ban::before{content: 'error';}
 .l-top_menu-v2 .icon-profile:before{
 	content: "person";
-	margin-right: 8px;
-	margin-left: 6px;
 }
 
 .tipsy-s {
@@ -735,6 +739,22 @@ header.head .notice:hover,
     justify-content: space-between;
     margin-bottom: 54px!important;
 }
+.p-profiles-show .profile-content .c-right .cc-2a{}
+@media screen and (max-width: 480px){
+	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.midheadline, .subheadline {
+	    font-size: 13px;
+	}
+	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+	    margin-bottom: 76px!important;
+	}
+}
+
 .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
     clear: both;
 }

@@ -1,14 +1,20 @@
 # Shiki-moonlight
-Тема для сайта [shikimori](https://shikimori.one/).
+Светлая тема для сайта [shikimori](https://shikimori.one/).
 
 Некоторые идеи были позаимствованы у @grin3671 и @EngiNier
 
 ## Скриншоты
 <details>
-	<summary>Показать</summary>
-	![alt text](/path/to/image.png)
+<summary>Показать</summary>
 
-  
+![](screenshots/1.png)
+![](screenshots/2.png)
+![](screenshots/3.png)
+![](screenshots/4.png)
+![](screenshots/5.png)
+![](screenshots/6.png)
+![](screenshots/7.png)
+![](screenshots/8.png) 
 </details>
 
 ## Особенности
@@ -85,5 +91,6 @@
 }
 ```
 
-<br>
+<hr>
+
 Об ошибках можете писать [сюда](https://github.com/vankad24/shiki-moonlight/issues/new).

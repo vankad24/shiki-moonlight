@@ -689,13 +689,12 @@ header.l-top_menu-v2 {
 .l-top_menu-v2 .icon-profile:before{
 	content: "person";
 }
-
-.tipsy-s {
-    transform: translateY(-10px);
-}
 .p-profiles .profile-head .c-brief .avatar .profile-actions {
     margin-top: 14px;
     display: block;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions a{
+	display: inline-block;
 }
 .p-profiles .profile-head .c-brief header .notice span:after,
 .p-profiles .profile-head .c-info .c-additionals div a,

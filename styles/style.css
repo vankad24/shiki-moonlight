@@ -855,3 +855,10 @@ header.head .notice:hover,
     width: 100%;
     max-width: none;
 }
+.b-badge.level-0:not(:hover), .b-badge.unavailable:not(:hover) {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.b-badge.level-0:not(:hover) img, .b-badge.unavailable:not(:hover) img {
+    opacity: 1;
+}

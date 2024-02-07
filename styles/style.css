@@ -22,7 +22,7 @@
 	--status-on-hold-border: #999999;
 	--status-on-hold-text-color: #666666;
 
-    --font-family: "Comfortaa", sans-serif !important;
+    --font-family:"Arial", sans-serif !important;
 
 	--background-url: url("https://raw.githubusercontent.com/vankad24/shiki-moonlight/master/images/moonlight-mai.png");
 	--image-gif: url("https://raw.githubusercontent.com/vankad24/shiki-moonlight/master/images/necrodancer-skwatober-dance.gif");
@@ -30,6 +30,10 @@
 	--img-width: 300px;
 	--img-height: calc(1.104*var(--img-width));
 	--img-padding: 8px;
+
+	--avatar-shadow: #0195ff;
+	--avatar-size: 220px;
+	--avatar-url: none;
 }
 
 /* Задний фон и страница */
@@ -635,19 +639,34 @@ header.l-top_menu-v2 {
     margin: 0;
     max-width: none;
     float: none;
+    position: relative;
 }
 .p-profiles .profile-head .c-mobile-actions{
 	display: none;
 }
 .p-profiles .profile-head .c-brief .avatar img {
-    width: 220px;
-    height: 220px;
-    box-shadow: 0px 0px 10px 2px #0195ff;
-	transition: 0.2s ease-out;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    box-shadow: 0px 0px 10px 2px var(--avatar-shadow);
+    transition: 0.2s ease-out;
 }
-.p-profiles .profile-head .c-brief .avatar img:hover{
-	box-shadow: 0px 0px 16px 3px #0195ff;
+
+.p-profiles .profile-head .c-brief .avatar:hover img{
+	box-shadow: 0px 0px 16px 3px var(--avatar-shadow);
 	transition: 0.2s ease-in;
+}
+.avatar:before {
+	border-radius: 50%;
+}
+.p-profiles .profile-head .c-brief .avatar:before{
+	content: "";
+	width: var(--avatar-size);
+	height: var(--avatar-size);
+	display: block;
+	background: transparent var(--avatar-url, none) center center / cover fixed no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .p-profiles .profile-head .c-info {

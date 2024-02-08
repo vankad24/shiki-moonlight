@@ -176,7 +176,9 @@ body{
 .b-user16 img{
 	border-radius: 50%;
 }
-
+.l-top_menu-v2 .icon-avatar img {
+    border-radius: 50%;
+}
 /* Сообщить об ошибке */
 .b-feedback .marker-text{
 	display: none;

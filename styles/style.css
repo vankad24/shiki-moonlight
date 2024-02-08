@@ -861,12 +861,12 @@ header.head .notice:hover,
 		display: none;
 	}
 	.p-profiles .profile-head .c-history {
-	    top: calc(100% + 420px);
+	    top: calc(100% + 410px);
 	    left: -30px;
 	    width: 100%;
 	}
 	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
-	    margin-bottom: 160px!important;
+	    margin-bottom: 170px!important;
 	}
 }
 /* Избранное */

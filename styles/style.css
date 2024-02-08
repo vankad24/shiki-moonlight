@@ -767,6 +767,24 @@ header.head .notice:hover,
 	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
 	    width: 100%;
 	}
+	.l-top_menu-v2{
+	    justify-content: space-between;
+	}
+	.l-top_menu-v2 .logo-container {
+	    padding: 0;
+	}
+	.l-top_menu-v2 .menu-logo .menu-dropdown{
+	    margin-right: 4px;
+	}
+	.l-top_menu-v2 .menu-icon.trigger.mobile{
+	    width: 46px;
+	}
+	.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span {
+	    padding: 0 8px;
+	}
+	.l-top_menu-v2 .menu-icon.search {
+	    margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 768px) {

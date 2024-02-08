@@ -835,6 +835,25 @@ header.head .notice:hover,
 .p-profiles .profile-head .c-history .entry .misc{
 	padding-right: 4px;
 }
+@media screen and (max-width: 480px){
+	.p-profiles .profile-head .c-history {
+	    display: block;
+	}
+	.p-profiles .profile-head .c-history .entry:first-child{
+		width: 100%;
+	}
+	.p-profiles .profile-head .c-history .entry:not(:first-child){
+		display: none;
+	}
+	.p-profiles .profile-head .c-history {
+	    top: calc(100% + 420px);
+	    left: -30px;
+	    width: 100%;
+	}
+	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+	    margin-bottom: 160px!important;
+	}
+}
 /* Избранное */
 #profiles_show .cc-favourites {
     display: grid;

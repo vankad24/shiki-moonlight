@@ -885,3 +885,11 @@ header.head .notice:hover,
 .b-badge.level-0:not(:hover) img, .b-badge.unavailable:not(:hover) img {
     opacity: 1;
 }
+/* Авторы */
+.b-achievement.level-0:not(:hover), .b-achievement.unavailable:not(:hover){
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.b-achievement.level-0:not(:hover) img, .b-achievement.unavailable:not(:hover) img {
+    opacity: 1;
+}

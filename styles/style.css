@@ -530,6 +530,12 @@ header.l-top_menu-v2 {
 	.p-profiles-show .profile-content .cc-2 > .c-left {
 	    margin-bottom: 14px;
 	}
+	.p-profiles .profile-head .c-info .c-additionals{
+		width: 100%!important;
+	}
+	.bar.vertical .line:last-child .x_label{
+		display: none;
+	}
 }
 .p-profiles-show .lifetime .bar {
 	height: 6px;
@@ -769,15 +775,6 @@ header.head .notice:hover,
 	}
 	.l-top_menu-v2{
 	    justify-content: space-between;
-	}
-	.l-top_menu-v2 .logo-container {
-	    padding: 0;
-	}
-	.l-top_menu-v2 .menu-logo .menu-dropdown{
-	    margin-right: 4px;
-	}
-	.l-top_menu-v2 .menu-icon.trigger.mobile{
-	    width: 46px;
 	}
 	.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span {
 	    padding: 0 8px;

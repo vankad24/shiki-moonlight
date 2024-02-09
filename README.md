@@ -37,6 +37,8 @@
 	:root{
 		--background-url: url("ссылка на фоновую картинку");
 
+		--favourites-shadow: #ffffff;
+		
 		--avatar-shadow: #0195ff;
 		--avatar-size: 220px;
 

@@ -34,6 +34,8 @@
 	--avatar-shadow: #0195ff;
 	--avatar-size: 220px;
 	--avatar-url: none;
+
+	--favourites-shadow: #ffffff;
 }
 
 /* Задний фон и страница */
@@ -889,7 +891,7 @@ header.head .notice:hover,
 .cc-favourites .cover .image-decor .image-cutter:hover{
 	transform: translateY(-4px);
 	transition: 0.2s ease-in;
-	box-shadow: 0px 0px 12px 3px #ffffff;
+	box-shadow: 0px 0px 12px 3px var(--favourites-shadow);
 	/* border-radius: 6px; */
 	z-index: 5;
 }

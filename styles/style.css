@@ -217,6 +217,9 @@ body{
 .b-to-top .slide:before{
 	background: #aed8ff99;
 }
+.b-to-top.active .arrow:before{
+	text-shadow: none;
+}
 /* Связанное */
 .cc-related-authors .c-column:first-child img{
 	width: 76px;

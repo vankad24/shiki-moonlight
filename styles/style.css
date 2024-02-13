@@ -184,6 +184,9 @@ body{
 .l-top_menu-v2 .icon-avatar img {
     border-radius: 50%;
 }
+.p-topics .l-menu .clubs .entry img{
+    border-radius: 50%;
+}
 /* Сообщить об ошибке */
 .b-feedback .marker-text{
 	display: none;

@@ -175,6 +175,9 @@ body{
 .inner header img {
 	border-radius: 50%;
 }
+.inner header > .poster img:not([src^="https://desu.shikimori.one/system/users"]) {
+	border-radius: 4px;
+}
 .b-user16 img{
 	border-radius: 50%;
 }

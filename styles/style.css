@@ -50,7 +50,7 @@ body{
 	background-color: transparent!important;
 	background-size: cover!important;
 	/*	backdrop-filter: blur(4px);*/
-	backdrop-filter: contrast(1.2);
+	/*	backdrop-filter: contrast(1.2);*/
 }
 .l-page {
 	background-color: #ffffffdb;

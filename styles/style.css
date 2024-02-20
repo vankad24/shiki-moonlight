@@ -371,7 +371,9 @@ header.l-top_menu-v2 {
 	border-color: #f1646a;
 	color: var(--status-dropped-text-color);
 }
-
+.preview .b-comment .body{
+	padding: 10px;
+}
 /* Положительный, нейтральный, отрицательный отзыв иконка */
 .b-review-topic.is-review_review_author_details>.inner .review-info .opinion{
 	border-radius: 50%;

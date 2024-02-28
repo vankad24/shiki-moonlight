@@ -479,6 +479,12 @@ header.l-top_menu-v2 {
 .b-add_to_list.on_hold .edit{
 	color: inherit;
 }
+.b-user_rate.b-ajax::before {
+    background: none;
+}
+.b-user_rate.b-ajax:after{
+	display: none
+}
 /* Фильтры в cписке аниме */
 .b-block_list li{
 	border-radius: 2px;

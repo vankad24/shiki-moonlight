@@ -247,6 +247,9 @@ header.l-top_menu-v2 {
 }
 
 /* Всплывающее окно */
+.tipsy-arrow-s {
+    transform: translateY(-1px);
+}
 .tooltip-inner{
 	transform: translateX(-18px);
 	border: none;

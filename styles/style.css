@@ -784,9 +784,6 @@ header.head .notice:hover,
     justify-content: space-between;
     margin-bottom: 54px!important;
 }
-.cc-2a:after{
-	display: none;
-}
 .p-profiles-show .profile-content .c-right .cc-2a{}
 @media screen and (max-width: 480px){
 	.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
